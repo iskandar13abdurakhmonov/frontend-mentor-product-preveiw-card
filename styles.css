@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html, body {
+    height: 100%;
+    line-height: 1;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #767887;
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: hsl(30, 38%, 92%);
+}
+
+[class*="__container"] {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.card {
+    max-width: 600px;
+    max-height: 458px;
+    display: flex;
+    margin: 94px 0 0 0;
+    border-radius: 10px;
+}
+.banner {
+    position: relative;
+    z-index: 1;
+    -webkit-transition: border-color 0.1s;
+    transition: border-color 0.1s;
+    overflow: hidden;
+}
+.banner:hover {
+    border-color: #bdc1c5;
+}
+.card__img-container {
+    position: relative;
+    width: 300px;
+    height: 458px;
+    overflow: hidden;
+    height: 100%;
+}
+.card__img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.banner:hover .card__img {
+    -webkit-transform: scale(1.15) rotate(0.01deg);
+    transform: scale(1.15) rotate(0.01deg);
+    opacity: 0.9;
+}
+.card__content {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 300px;
+    padding: 35px 47px 32px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+}
+.content {
+    display: flex;
+    max-width: 228px;
+    flex-direction: column;
+}
+.content__title {
+    letter-spacing: 4px;
+    margin: 0 0 27px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.content__name {
+    max-width: 200px;
+    margin: 0 0 27px 0;
+    font-family: 'Fraunces', serif;
+    line-height: 33px;
+    font-weight: 700;
+    color: #000;
+    font-size: 32px;
+}
+.content__descr {
+    max-width: 220px;
+    margin: 0 0 34px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.price {
+    margin: 0 0 28px 0;
+    display: flex;
+    align-items: center;
+}
+.price__new {
+    margin: 0 14px 0 0;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: hsl(158, 36%, 37%);
+}
+.price__old {
+    position: relative;
+    margin: 0 0 0 0;
+    font-family: 'montserrat', serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.price__old::after {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    content: '';
+    height: 1px;
+    width: 54px;
+    background-color: #767887;
+}
+.btn {
+    width: 236px;
+    display: flex;
+    padding: 16px 62px 16px 62px;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.btn:hover {
+    transition: all;
+    background-color: #1A4031;
+}
+
+.btn > svg {
+    margin: 0 10px 0 0;
+}
+
+@media (max-width: 620px) {
+
+    
+
+    .card {
+        display: block;
+        margin: 20px 0 0 0;
+        width: 343px;
+    }
+
+    .banner {
+        width: 343px;
+    }
+
+    .card__img-container {
+        width: 100%;
+        height: 240px;
+    }
+
+    .card__img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .card__content {
+        width: 100%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+}
+
+@media (max-width: 380px) {
+    .card {
+        width: 300px;
+    }
+
+    .banner {
+        width: 300px;
+    }
+}
+
+
