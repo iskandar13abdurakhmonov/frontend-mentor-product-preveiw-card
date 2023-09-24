@@ -10,11 +10,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
     -   [Links](#links)
 -   [My process](#my-process)
     -   [Built with](#built-with)
-    -   [What I learned](#what-i-learned)
-    -   [Continued development](#continued-development)
-    -   [Useful resources](#useful-resources)
 -   [Author](#author)
--   [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -28,7 +24,7 @@ Users should be able to:
 ### Screenshot
 
 ![desktop screenshot](./screenshots/screenshot1.png)
-![mobile screenshot](./screenshots/screenshot1.png)
+![mobile screenshot](./screenshots/screenshot2.png)
 
 ### Links
 
@@ -46,6 +42,6 @@ Users should be able to:
 
 ## Author
 
--   Website - [Add your name here](https://github.com/iskandar13abdurakhmonov)
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/iskandar13abdurakhmonov)
--   Twitter - [@yourusername](https://www.twitter.com/ab65485)
+-   Website - [Iskandar](https://github.com/iskandar13abdurakhmonov)
+-   Frontend Mentor - [@eescan](https://www.frontendmentor.io/profile/iskandar13abdurakhmonov)
+-   Twitter - [@ab65485](https://www.twitter.com/ab65485)
