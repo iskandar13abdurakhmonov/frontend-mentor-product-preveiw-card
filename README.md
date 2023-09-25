@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: []([https://your-solution-url.com](https://github.com/iskandar13abdurakhmonov/frontend-mentor-product-preveiw-card))
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Live Site URL: [Add live site URL here](https://main--chimerical-donut-fe1466.netlify.app/)
 
 ## My process
 
